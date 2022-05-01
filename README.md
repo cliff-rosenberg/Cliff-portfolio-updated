@@ -2,13 +2,13 @@
 
 ## What this is:
 
-This is a one-page "portfolio" site thats gives people examples of a few projects that I worked on. This was a class assignment that I used to get a better grasp on some more difficult CSS formatting options such as grids and flex blocks. It took me some time to get the "Projects" area to stay correctly positioned when the page was resized.
+This is my updated personal portfolio page.
 
 ## Installation
 
 Theres no installation needed, I have the page hosted here at Github.
 
-Link: [https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)](https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)
+Link: TODO
 
 ## License
 
