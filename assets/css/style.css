@@ -1,6 +1,6 @@
 body {
   background-color: #DFF6FF;
-  font-family: Monaco, Candara, Avenir, Arial, sans-serif;
+  font-family: Merriweather, Arial, sans-serif;
   }
 
 html {
@@ -39,11 +39,11 @@ body, html {
   /* Loads the "Hero" image here */
 .image-hero {
     display: block;
+    position: relative;
     /* add a linear-gradient to give a darkened background effect to the image, gives contrast to text*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/cliff_lg.jpg");
     width: 100%;
     height: 100vh;
-    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,6 +62,7 @@ body, html {
 .work-examples-bar {
     background: #2D31FA;
     overflow: hidden;
+    border-radius:  0px 0px 15px 15px;
   }
 
 .work-examples-bar h2 {
@@ -87,9 +88,10 @@ body, html {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px
   }
   
-.gallery-item-top-1 {
+#gallery-item-top-1 {
     position: relative;
     grid-column-start: 1;
     grid-column-end: 10;
@@ -120,6 +122,7 @@ body, html {
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
     font-size: 1.2vw;
     font-weight: 900;
@@ -133,7 +136,7 @@ body, html {
     text-decoration: none;
   }
 
-.gallery-item-2 {
+#gallery-item-2 {
     position: relative;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -141,7 +144,7 @@ body, html {
     grid-row-end: 9;
   }
   
-.gallery-item-3 {
+#gallery-item-3 {
     position: relative;
     grid-column-start: 4;
     grid-column-end: 7;
@@ -149,7 +152,7 @@ body, html {
     grid-row-end: 9;
   }
   
-.gallery-item-4 {
+#gallery-item-4 {
     position: relative;
     grid-column-start: 7;
     grid-column-end: 10;
@@ -161,6 +164,7 @@ body, html {
 .about-me-bar {
     background: #2D31FA;
     overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
   }
 
 .about-me-bar h2 {
@@ -171,8 +175,10 @@ body, html {
 .about-me-text {
     display: flex;
     color: black;
-    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
     outline: black solid 5px;
+    margin: 5px;
   }
   
 /* the "Footer" area with contact info is here */
@@ -181,6 +187,7 @@ body, html {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
     overflow: hidden;
     padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;
   }
 .footer-contact h2 {
     color: white;
@@ -194,6 +201,7 @@ body, html {
   }
 .box1 {
     width: 275px;
+    padding-left: 15px;
   }
 .box2 {
     width: 150px;
