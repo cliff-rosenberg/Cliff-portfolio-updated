@@ -37,12 +37,12 @@ body, html {
   }
 
   /* Loads the "Hero" image here */
-.image-hero {
+#image-hero-container {
     display: block;
     position: relative;
     /* add a linear-gradient to give a darkened background effect to the image, gives contrast to text*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/cliff_lg.jpg");
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ body, html {
 
 .proj-name-top {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -117,23 +117,22 @@ body, html {
     text-decoration: none;
   }
 
-.proj-name {
+.proj-name-gallery-item {
     position: absolute;
-    top: 5%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
     font-size: 1.2vw;
     font-weight: 900;
-    text-shadow: 2px 2px 5px black;
+    
   }
-.proj-name a:link {
-    color: white;
+.proj-name-gallery-item a:link {
+    color: black;
   }
-.proj-name a:visited {
-    color: white;
-    text-decoration: none;
+.proj-name-gallery-item a:visited {
+    color: blue;
+    /* text-decoration: none; */
   }
 
 #gallery-item-2 {
@@ -181,7 +180,7 @@ body, html {
     margin: 5px;
   }
   
-/* the "Footer" area with contact info is here */
+/* the "Footer" area container */
 .footer-contact {    
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
@@ -192,17 +191,19 @@ body, html {
 .footer-contact h2 {
     color: white;
   }
-
+/* Section inside footer */
 .footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-basis: auto;
   }
+/* This is for the leftmost text in the footer bar */
 .box1 {
     width: 275px;
     padding-left: 15px;
   }
+/* This is for the two icons to the right of the footer left-side text */
 .box2 {
     width: 150px;
   }
