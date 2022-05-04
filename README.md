@@ -2,13 +2,17 @@
 
 ## What this is:
 
-This is my updated personal portfolio page.
+This is my updated personal portfolio page. It has been restyled a bit to help with presenting more of my recently completed projects. These kind of things are probably always going to be a "work in progress" as new technologies are learned and then applied!
 
 ## Installation
 
 Theres no installation needed, I have the page hosted here at Github.
 
-Link: TODO
+Link: [https://cliff-rosenberg.github.io/08-Portfolio-updated/](https://cliff-rosenberg.github.io/08-Portfolio-updated/)
+
+## Screenshot:
+
+![./assets/images/screenshot_animated.gif](./assets/images/screenshot_animated.gif)
 
 ## License
 
