@@ -1,5 +1,5 @@
 body {
-  background-color: #DFF6FF;
+  background-color: #99bbc9;
   font-family: Merriweather, Arial, sans-serif;
   }
 
@@ -7,13 +7,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body, html {
+/* body, html {
     height: 100%;
-  }
+  } */
 
 .navbar-top {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
+    width: 100vw;
     overflow: hidden;
   }
 
@@ -38,7 +39,7 @@ body, html {
 
   /* Loads the "Hero" image here */
 #image-hero-container {
-    display: block;
+    /* display: block; */
     position: relative;
     /* add a linear-gradient to give a darkened background effect to the image, gives contrast to text*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/cliff_lg.jpg");
@@ -61,6 +62,7 @@ body, html {
   /* this is the start of the "Projects" section */
 .work-examples-bar {
     background: #2D31FA;
+    background-position: center;
     overflow: hidden;
     border-radius:  0px 0px 15px 15px;
   }
@@ -186,6 +188,7 @@ body, html {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
     overflow: hidden;
     padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
   }
 .footer-contact h2 {
